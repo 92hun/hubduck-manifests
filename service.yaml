@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hubduck
+spec:
+  type: ClusterIP
+  selector:
+    app: hubduck
+  ports:
+    - port: 8080
+      targetPort: 8080
