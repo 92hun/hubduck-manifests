@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hubduck
-          image: ghcr.io/92hun/hubduck:v1.0.2
+          image: ghcr.io/92hun/hubduck
           ports:
             - containerPort: 8080
           readinessProbe:
